@@ -15,7 +15,7 @@ const RegisterUser = ({ history, handleSubmit, postNewUser }) => {
             <Link to="/"><i className="back-button material-icons">arrow_back</i></Link>
             <h1 className="center-text fancy-title mb-7">Register user</h1>
             <div className="mb-4">
-                <label htmlFor="name" className="mr-4">Name</label>
+                <label htmlFor="name" className="register-field-label mr-4">Name</label>
                 <Field
                     name="name"
                     component="input"
@@ -24,7 +24,7 @@ const RegisterUser = ({ history, handleSubmit, postNewUser }) => {
                 />
             </div>
             <div className="mb-7">
-                <label htmlFor="email" className="mr-4">Email</label>
+                <label htmlFor="email" className="register-field-label mr-4">Email</label>
                 <Field
                     name="email"
                     component="input"

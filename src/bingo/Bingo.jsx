@@ -6,7 +6,7 @@ import UsersContainer from './users/UsersContainer';
 const Bingo = ({ history }) => {
     return (
         <div className="bingo">
-            <h1 className="center-text fancy-title text-sunglow bingo-title mt-7 mb-7">
+            <h1 className="center-text fancy-title text-sunglow bingo-title ">
                 FESTIVALBINGO
             </h1>
 

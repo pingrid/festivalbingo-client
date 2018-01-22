@@ -1,8 +1,32 @@
 .register-field {
   height: 2.5rem;
-  width: 27rem;
+  width: 90%;
   border-radius: 0.2rem;
   border: 0;
   padding: 0.5rem 0.5rem;
+}
+
+.register-field-label {
+  text-align: left;
+  display: block;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+
+@include media-breakpoint-up(sm) {
+  .register-field {
+    height: 2.5rem;
+    width: 27rem;
+    border-radius: 0.2rem;
+    border: 0;
+    padding: 0.5rem 0.5rem;
+  }
+  .register-field-label {
+    text-align: left;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
 }
 

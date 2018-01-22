@@ -1,6 +1,17 @@
 .bingo-title {
-  font-size: 4rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
 }
+
+@include media-breakpoint-up(sm) {
+  .bingo-title {
+    font-size: 4rem;
+    margin-bottom: 3.5rem;
+    margin-top: 3.5rem;
+  }
+}
+
 
 .back-button {
   float: left;
