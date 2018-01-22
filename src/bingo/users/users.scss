@@ -1,0 +1,19 @@
+.users {
+  text-align: left;
+}
+
+.user-board-link {
+  font-size: 1.5rem;
+  display: block;
+  color: $sunglow;
+
+  &:hover, &:focus &:active {
+    text-decoration: none;
+    color: $pale_cerulean;
+  }
+}
+
+.users-title {
+  border-bottom: 1px solid;
+  display: inline-block;
+}

@@ -1,0 +1,14 @@
+.bingo-title {
+  font-size: 4rem;
+}
+
+.back-button {
+  float: left;
+  font-size: 3rem;
+  color: $sunglow;
+}
+
+@import './register/user';
+@import './board/board';
+@import './users/users';
+

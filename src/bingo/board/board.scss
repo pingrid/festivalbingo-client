@@ -1,0 +1,46 @@
+.bingo-board {
+  min-height: 20em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tile {
+  min-height: 4rem;
+  border: 1px solid $dark_cerulean;
+  background-color: white;
+
+  &:hover, &:focus {
+    background-color: $azureish_white;
+  }
+
+  &:active {
+    background-color: $pale_cerulean;
+  }
+}
+
+.tile-modal {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  min-height: 25rem;
+  border-radius: 0.2rem;
+}
+
+.guess-field {
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid $dark_cerulean;
+  width: 100%;
+
+  padding: 0.2rem 0.5rem;
+}
+
+.guess-button {
+  width: 13rem;
+  margin: auto;
+}
+
+.save-button-wrapper {
+  display: flex;
+}

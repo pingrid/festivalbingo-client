@@ -1,0 +1,54 @@
+html { font-family: 'Roboto', sans-serif; }
+
+@import './styling/bootstrap';
+@import './mixins';
+
+.app-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1.5625em;
+  padding-right: 1.5625em;
+  max-width: 63em;
+}
+
+
+.display-block {
+  display: block;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.fancy-title {
+  font-family: 'Abril Fatface', cursive;
+}
+body {
+  background-color: $rich_black;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.bingo-button {
+  background-color: $pale_cerulean;
+  height: 3rem;
+  width: 8rem;
+  text-transform: uppercase;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  border: 0;
+
+  transition: transform 200ms ease-in-out,
+  opacity 200ms ease-in-out,
+  background-color 300ms ease-in-out;
+
+  &:hover, &:focus, &:active {
+    background-color: $sunglow;
+  }
+}
+
+@import './components/modal/modal';
+@import './bingo/bingo';
+
