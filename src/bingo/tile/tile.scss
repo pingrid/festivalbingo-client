@@ -1,0 +1,49 @@
+$firstCorrect: #C8E6C9;
+$secondCorrect: #A5D6A7;
+$thirdCorrect: #81C784;
+
+
+.correct-guess-1 {
+  background-color: $firstCorrect;
+
+  &:hover, &:focus {
+    background-color: #BBDEFB;
+  }
+}
+
+.correct-guess-2 {
+  background-color: $secondCorrect;
+
+  &:hover, &:focus {
+    background-color: #BBDEFB;
+  }
+}
+
+.correct-guess-3 {
+  background-color: $thirdCorrect;
+
+  &:hover, &:focus {
+    background-color: #BBDEFB;
+  }
+}
+
+.tile {
+  display: inline-block;
+  button {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+.correct-number {
+  font-family: 'Abril Fatface', cursive;
+  position: absolute;
+  left: 10px;
+  font-size: 2rem;
+  top: 0;
+}

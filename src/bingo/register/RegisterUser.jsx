@@ -4,9 +4,8 @@ import { reduxForm, Field } from 'redux-form';
 import { Link, withRouter } from 'react-router-dom';
 
 const RegisterUser = ({ history, handleSubmit, postNewUser }) => {
-    const submitForm = values => {
-        console.log('submitting: ', values);
-        postNewUser(values.name, values.email);
+    const submitForm = (values) => {
+        postNewUser('oya2018', values.name, values.email);
         history.push('/');
     };
 

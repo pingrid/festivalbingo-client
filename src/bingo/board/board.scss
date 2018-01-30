@@ -6,6 +6,7 @@
 }
 
 .tile {
+  position: relative;
   min-height: 4rem;
   border: 1px solid $dark_cerulean;
   background-color: white;
@@ -43,4 +44,10 @@
 
 .save-button-wrapper {
   display: flex;
+}
+
+.links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

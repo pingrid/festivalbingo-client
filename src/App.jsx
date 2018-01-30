@@ -6,12 +6,14 @@ import Bingo from './bingo/Bingo';
 import './App.scss';
 import RegisterUserContainer from './bingo/register/RegisterUserContainer';
 import BoardContainer from './bingo/board/BoardContainer';
+import Rules from './bingo/rules/Rules';
 
 const App = () => (
     <MuiThemeProvider theme={theme}>
         <Switch>
             <Route path="/register" component={RegisterUserContainer} />
             <Route path="/user/:userName" component={BoardContainer} />
+            <Route path="/rules" component={Rules} />
             <Route path="*" component={Bingo} />
         </Switch>
     </MuiThemeProvider>
